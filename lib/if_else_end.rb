@@ -1,5 +1,5 @@
-time_tracker = Time.to_s
-if time_tracker = Even
+time_tracker = current_time.to_s
+if time_tracker == Even
   puts "Even!"
 else
   puts "Odd!"
