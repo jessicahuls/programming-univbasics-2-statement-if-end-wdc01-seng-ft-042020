@@ -1,4 +1,4 @@
-time_tracker = Time.now
+time_tracker = Time.to_s
 if time_tracker = Even
   puts "Even!"
 else
