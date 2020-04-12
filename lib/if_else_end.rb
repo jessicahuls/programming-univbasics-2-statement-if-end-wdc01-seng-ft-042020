@@ -1,5 +1,6 @@
-time_tracker = Time.now
-if time_tracker.to_i == Even
+current_time = Time.now
+
+if Time.now == Even
   puts "Even!"
 else
   puts "Odd!"
